@@ -39,11 +39,11 @@ $(document).ready(function () {
     /*
     This line of code generates the random number from for the random section 
     */
-    function gemvalue() {
+    function gemvalue(gem) {
         gemElement.play();
         var score = parseInt(game.score);
-        var gem_value = parseInt(Math.floor(Math.random() * 13));
-        var total = parseInt(score) + parseInt(gem_value);
+        var gem = parseInt(Math.floor(Math.random() * 13));
+        var total = score + gem;
         $("#score_value").html(total);
         if (total === game.rannum) {
             alert("you win!");
