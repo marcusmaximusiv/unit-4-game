@@ -7,26 +7,33 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Zelda Gems game</title>
     <link rel= />
-    <link rel= />
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/javascript/game.js"></script>
 </head>
 
 <body>
-    <div class="title page">
-        <h1>Zelda Game</h1>
-        <button class="btn btn-primary" id="play">START</button>
-        <button class="btn btn-primary" id="pause">PAUSE</button>
+    <div class="title_page">
+        <br>
+        <img src="assets/images/logo.svg" />
+        <br>
+        <button class="btn btn-primary" id="play">Play</button>
+        <button class="btn btn-primary" id="pause">Pause</button>
+        <br>
+        <br>
     </div>
     <div class="rules">
+        <br>
         <p>Goal of the game is to reach the number of gems needed to buy the item listed above</p>
         <p>If you go over the amount you will not be able to buy the product and lose the game</p>
         <p>This is a parody of the old zelda games from back in the 1990s.</p>
         <br>
     </div>
-    <div class="win/loss">
+    <div class="win_loss">
         <h2 id="wins">Wins: </h2>
+        <h2 id="wins_value"></h2>
         <h2 id="losses">Losses: </h2>
+        <h2 id="loss_value"></h2>
     </div>
     <div class="randomnumber">
         <h2>You must get</h2>
@@ -35,16 +42,23 @@
         <h2 id="item"></h2>
     </div>
     <div class="gems">
+        <br>
         <button class="btn btn-primary" id="red_gem"><img src="assets/images/Red_gem.png" /></button>
         <button class="btn btn-primary" id="blue_gem"><img src="assets/images/blue_gem.png" /></button>
         <button class="btn btn-primary" id="green_gem"><img src="assets/images/green_gem.png" /></button>
         <button class="btn btn-primary" id="purple_gem"><img src="assets/images/Purple_gem.png" /></button>
+        <br>
+        <br>
     </div>
     <div class="yourscore">
         <h2 id="score">Your Score is: </h2>
+        <h2 id="score_value"></h2>
     </div>
-    <div>
-        <button class="btn btn-primary" id="reset">RESET</button>
+    <div class="reset_button">
+        <br>
+        <button class="btn btn-primary" id="reset">Restart the Game</button>
+        <br>
+        <br>
     </div>
 
 </body>

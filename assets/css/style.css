@@ -1,0 +1,77 @@
+body{
+    background-image: url("../images/background.jpg");
+    background-size: 250px;
+
+}
+.title_page{
+    background-color: transparent;
+    text-align: center;
+    border-style: dashed;
+    border-width: 5px;
+    color: white;
+}
+.rules{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+}
+.randomnumber{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+}
+.win_loss{
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    border-style: dashed;
+    border-width: 5px;
+}
+.gems{
+    background-color:transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+}
+.yourscore{
+    background-color:transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+}
+.reset_button{
+    background-color:transparent;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 5px;
+}
+#red_gem{
+    background:transparent;
+    border: transparent;
+}
+
+#blue_gem{
+    background:transparent;
+    border: transparent;
+}
+#green_gem{
+    background:transparent;
+    border: transparent;
+}
+#purple_gem{
+    background:transparent;
+    border: transparent;
+}
