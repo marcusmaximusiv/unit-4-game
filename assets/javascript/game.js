@@ -39,23 +39,28 @@ $(document).ready(function () {
     /*
     This line of code generates the random number from for the random section 
     */
-    function gemvalue(gem) {
+    function gemvalue() {
         gemElement.play();
         var score = parseInt(game.score);
+        var wins = game.wins;
+        var losses = game.losses;
         var gem = parseInt(Math.floor(Math.random() * 13));
-        var total = score + gem;
+        game.score = game.score + gem
+        var total = game.score
         $("#score_value").html(total);
         if (total === game.rannum) {
             alert("you win!");
-            game.wins++;
+            wins++;
+            game.wins += wins;
             $("#wins_value").html(game.wins);
-            reset();
         }
         else if (total > game.rannum) {
             alert("you lose!");
-            game.losses++;
+            losses++;
+            console.log(losses);
+            game.losses += losses;
+            game.score = 0
             $("#loss_value").html(game.losses);
-            reset();
         }
     }
 
